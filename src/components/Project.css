@@ -1,11 +1,16 @@
 .project-div {
     display: grid;
     box-shadow: 10px 10px 15px rgb(186, 186, 186);
+    cursor: pointer;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
     'window'
     'info';
+}
+
+.project-div:hover {
+    transform: scale(1.05);
 }
 
 .project-window {
@@ -15,4 +20,5 @@
 .project-info {
     grid-area: info;
     padding: 0 1rem;
+    color: gray;
 }
