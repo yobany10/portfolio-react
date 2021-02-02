@@ -1,0 +1,40 @@
+.home-div {
+    display: grid;
+}
+
+.home-header {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'main'
+    'sub';
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(45deg,#ff7300,#ff7c54,#ff5043, #ff7300);
+    background-size: 600% 100%;
+    animation: gradient 12s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+
+.home-header-title {
+    grid-area: main;
+    color: white;
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    align-self: end;
+    margin: 0 0 0 0;
+}
+
+.home-header-subtitle {
+    grid-area: sub;
+    color: white;
+    align-self: start;
+    margin: 0 0 0 0;
+}
