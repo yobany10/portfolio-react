@@ -1,0 +1,25 @@
+.contact-div {
+    display: grid;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.contact-div a {
+    color: gray;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.contact-div a:hover {
+    transform: scale(1.2);
+}
+
+.contact-linkedin {
+    font-size: 2rem;
+}
+
+.contact-github {
+    font-size: 2rem;
+}

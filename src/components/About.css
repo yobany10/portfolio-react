@@ -41,10 +41,12 @@
 .about-name {
     grid-area: name;
     align-self: start;
+    color: gray;
 }
 
 .about-bio {
     grid-area: bio;
     align-self: start;
     margin-top: 0;
+    color: gray;
 }

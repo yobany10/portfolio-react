@@ -3,6 +3,7 @@ import './Home.css'
 import Projects from './Projects'
 import Skills from './Skills'
 import About from './About'
+import Contact from './Contact'
 
 const Home = () => {
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <h1 className='home-section-title'>LANGUAGES & TOOLS</h1>
             <Skills />
             <About />
+            <Contact />
         </div>
     )
 }
