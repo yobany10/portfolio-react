@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import Projects from './Projects'
 import Skills from './Skills'
+import About from './About'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <Projects />
             <h1 className='home-section-title'>LANGUAGES & TOOLS</h1>
             <Skills />
+            <About />
         </div>
     )
 }
