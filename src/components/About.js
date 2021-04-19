@@ -14,7 +14,7 @@ const About = props => {
         <section className={divSize}>
             <img className='about-img' src={portraitImg} alt='Yobany Perez' />
             <h2 className='about-name'>Yobany Perez</h2>
-            <p className='about-bio'>Front End Developer with Graphic Design experience. Enjoys building and maintaining responsive applications from the ground up. Proficient in HTML, CSS, and JavaScript; plus modern libraries like ReactJS.</p>
+            <p className='about-bio'>Front End Developer with Graphic Design experience. Enjoys building and maintaining responsive web applications from the ground up. Proficient in HTML, CSS, and JavaScript; plus modern libraries like ReactJS.</p>
         </section>
     )
 }
