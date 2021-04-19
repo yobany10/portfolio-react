@@ -5,8 +5,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    'window'
+    'image'
     'info';
+}
+
+.project-div a {
+    text-decoration: none;
 }
 
 .project-div:hover {
@@ -14,7 +18,7 @@
 }
 
 .project-window {
-    grid-area: window;
+    grid-area: image;
 }
 
 .project-info {

@@ -10,7 +10,8 @@ const Projects = () => {
             id={item.id}
             name={item.name}
             image={item.image}
-            description={item.description} />)}
+            description={item.description}
+            link={item.link} />)}
         </section>
     )
 }

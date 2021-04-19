@@ -5,6 +5,7 @@ import ProjectWindow from './ProjectWindow'
 const Project = props => {
     return (
         <section className='project-div'>
+            <a href={props.link} target='_blank' rel='noreferrer'>
             <ProjectWindow className='project-window' 
                 name={props.name} 
                 image={props.image} />
@@ -12,6 +13,7 @@ const Project = props => {
                 <h2>{props.name}</h2>
                 <p>{props.description}</p>
             </section>
+            </a>
         </section>
     )
 }
